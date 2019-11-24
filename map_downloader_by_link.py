@@ -7,6 +7,8 @@ import re
 import time
 
 map_links = []
+
+# DON'T FORGET TO CHANGE THIS FOLDER
 with open("osumapdler\\map_links.txt") as f:
     map_links = f.read().splitlines()
 
@@ -34,6 +36,7 @@ for url in map_links:
                 if sign in map_name:
                     map_name = map_name.replace(sign, '_')
 
+            # DON'T FORGET TO CHANGE THIS FOLDER
             fname = "D:\\frixacoder\\progs\\osu!\\Songs\\" + map_name
             print(r"{}".format(fname), end='')
 
@@ -44,6 +47,8 @@ for url in map_links:
 
         except:
             print("--Something went wrong!")
+            
+            # DON'T FORGET TO CHANGE THIS FOLDER
             with open("osumapdler\\errors.txt", 'a') as er:
                 er.write(url)
                 time.sleep(1)
