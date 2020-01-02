@@ -1,4 +1,5 @@
 # Version 0.1.1.beta
+# Author FrixaCoder(frixacoder)
 
 import browser_cookie3
 import requests
