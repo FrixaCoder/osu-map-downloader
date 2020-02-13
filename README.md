@@ -7,5 +7,5 @@ You need:
 
 Notes:
 1. Make sure you are signed in to your account from Chrome or Firefox
-2. browser-cookie3 is used to use cookies (your login and password) from that browser (so, you don't have to log-in in osu!)
+2. browser-cookie3 uses cookies in your browser (your login and password for osu!. So, you don't have to log-in in osu!)
 3. If there is something wrong with the link, the link is saved in errors.txt (try manually downloading or run script again for those link because I don't know why, but sometimes code saves some links in errors.txt even though they exist)
