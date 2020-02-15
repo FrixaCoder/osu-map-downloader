@@ -16,11 +16,10 @@ with open("osumapdler\\map_links.txt") as f:
 print("Here are links to download:")
 for l in map_links: print(l)
 
-# importing login and password from browser
-# change to '.chrome()' if you are signed in Chrome
+# change to '.chrome()' if you are signed in to osu! with Chrome
 cj = browser_cookie3.firefox()
 
-# if these symbols are in the name of a beatmap they are replaced by '_'
+# since these symbols arent allowed, they'll be replaced with "-"
 notlist = ['*', '"', '/', '\\', ':', ';', '|', '?', '<', '>']
 
 for url in map_links:
