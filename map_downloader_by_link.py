@@ -1,4 +1,4 @@
-# Version 0.1.1.beta
+# Version 1.1.0-release
 # Author FrixaCoder(frixacoder)
 
 import browser_cookie3
